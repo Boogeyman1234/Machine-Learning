@@ -1,0 +1,102 @@
+QUESTION 1
+Business Interpretation Report
+Objective
+
+The objective of this project was to segment mall customers based on their annual income and spending behavior to help the retail chain design targeted marketing campaigns.
+
+Methodology
+
+Data preprocessing included checking missing values, duplicate records, and feature selection. Annual Income and Spending Score were selected as clustering features. StandardScaler was applied to normalize the data before clustering.
+
+The Elbow Method was used to determine the optimal number of clusters. K-Means clustering was then applied with K = 5. Model quality was evaluated using the Silhouette Score.
+
+Results
+
+The clustering model achieved a Silhouette Score of 0.555, indicating good separation between customer groups.
+
+Five customer segments were identified:
+
+Average Customers
+Premium Customers
+Impulsive Shoppers
+Careful Wealthy Customers
+Budget Customers
+
+Each segment demonstrated unique spending characteristics and purchasing behavior.
+
+Business Impact
+
+Customer segmentation allows the company to personalize marketing campaigns instead of using a single strategy for all customers.
+
+This can improve:
+
+Customer retention
+Marketing efficiency
+Revenue generation
+Customer satisfaction
+Final Recommendation and Decision-Making Summary
+Customer Group	Recommendation
+Premium Customers	VIP programs, exclusive rewards
+Average Customers	Seasonal offers and memberships
+Impulsive Shoppers	Discounts and bundle offers
+Careful Wealthy Customers	Personalized campaigns
+Budget Customers	Low-cost products and coupons
+
+
+
+
+
+
+
+Final Recommendation and Decision-Making Summary
+Based on the K-Means clustering analysis, customers were divided into five distinct segments according to their Annual Income and Spending Score. The retail chain should adopt different marketing strategies for each customer group:
+
+1. Premium Customers (High Income, High Spending)
+Provide VIP memberships and loyalty rewards.
+Offer premium and luxury products.
+Give early access to sales and exclusive events.
+Focus on customer retention.
+2. Average Customers (Medium Income, Medium Spending)
+Offer seasonal discounts and promotional campaigns.
+Encourage membership enrollment.
+Recommend complementary products to increase spending.
+3. Impulsive Shoppers (Low Income, High Spending)
+Provide bundle offers and cashback rewards.
+Use personalized promotions to maintain engagement.
+Monitor spending behavior and target frequently purchased products.
+4. Careful Wealthy Customers (High Income, Low Spending)
+Send personalized recommendations.
+Introduce premium products through targeted marketing.
+Offer exclusive discounts to encourage purchases.
+5. Budget Customers (Low Income, Low Spending)
+Focus on affordable products.
+Provide discount coupons and value packs.
+Run price-sensitive promotional campaigns.
+Decision-Making Summary
+
+The clustering model successfully identified five meaningful customer groups with a Silhouette Score of 0.555, indicating good cluster separation.
+
+Key Business Decisions
+Retain Premium Customers
+Highest revenue contributors.
+Priority segment for loyalty programs.
+Convert Careful Wealthy Customers
+High purchasing capacity but low spending.
+Represents the biggest growth opportunity.
+Maintain Engagement with Average Customers
+Stable customer base.
+Can be converted into premium customers through targeted promotions.
+Leverage Impulsive Shoppers
+Highly responsive to discounts and offers.
+Suitable for promotional campaigns.
+Serve Budget Customers Efficiently
+Focus on low-cost products and value-based marketing.
+Expected Business Benefits
+Improved customer satisfaction.
+Higher customer retention.
+More effective marketing campaigns.
+Increased sales and revenue.
+Better allocation of marketing resources.
+Final Conclusion
+
+The retail chain should implement a customer-segmentation-based marketing strategy rather than using the same promotional approach for all customers. By targeting each customer segment with personalized offers and campaigns, the company can maximize revenue, improve customer experience, and make more informed business decisions.
